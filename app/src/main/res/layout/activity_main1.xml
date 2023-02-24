@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".screen.wellcome.MainActivity3">
+    tools:context=".screen.wellcome.MainActivity1">
+
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView1"
         android:layout_width="309dp"
         android:layout_height="333dp"
         android:layout_marginTop="36dp"
@@ -14,10 +15,10 @@
         app:layout_constraintHorizontal_bias="0.411"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pic_onboarding_3" />
+        app:srcCompat="@drawable/pic_onboarding_1" />
 
     <ImageView
-        android:id="@+id/imageNext3"
+        android:id="@+id/imageNext1"
         android:layout_width="67dp"
         android:layout_height="67dp"
         android:background="@drawable/icon_background"
@@ -33,22 +34,22 @@
         tools:ignore="ImageContrastCheck" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView1"
         android:layout_width="255dp"
         android:layout_height="104dp"
         android:layout_marginTop="4dp"
         android:gravity="center"
         android:orientation="horizontal"
-        android:text="pickup delivery at your door"
+        android:text="Browse your menu and order directly"
         android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView1" />
 
     <TextView
-        android:id="@+id/textView3.1"
+        android:id="@+id/textView1.1"
         android:layout_width="247dp"
         android:layout_height="49dp"
         android:layout_marginTop="40dp"
@@ -56,6 +57,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.43"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
